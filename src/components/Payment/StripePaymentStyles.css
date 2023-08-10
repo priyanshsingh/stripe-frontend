@@ -64,20 +64,20 @@
 }
 
 .result.success {
-  background-color: #c7f0c4; /* Green background for success */
-  color: #228b22; /* Green text color */
+  background-color: #c7f0c4; 
+  color: #228b22; 
 }
 
 .result.failure {
-  background-color: #f8c0c0; /* Red background for failure */
-  color: #ff3c3c; /* Red text color */
+  background-color: #f8c0c0; 
+  color: #ff3c3c; 
 }
 
 
 
 .dimmed {
-  opacity: 0.6; /* Dim the form when loading */
-  pointer-events: none; /* Disable interactions */
+  opacity: 0.6; 
+  pointer-events: none; 
 }
 
 .loading-overlay {
@@ -89,8 +89,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-  z-index: 1000; /* Place above everything */
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1000; 
 }
 
 .loader {
