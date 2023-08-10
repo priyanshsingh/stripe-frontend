@@ -1,0 +1,55 @@
+.StripeElement {
+    height: 40px;
+    width: 100%; /* Make the element take full width */
+    margin-bottom: 10px; /* Add some spacing between elements */
+    color: #32325d;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    transition: box-shadow 150ms ease;
+  }
+  
+  .StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+  }
+  
+  .StripeElement--invalid {
+    border-color: #fa755a;
+  }
+  
+  .StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+  }
+  
+  .card-section {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto; /* Add margin to create spacing from the container */
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-label {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #333;
+    font-family: 'Roboto', Arial, sans-serif;
+  }
+  
+  .card-element-container {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #f9f9f9; /* Add a subtle background color */
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    transition: box-shadow 150ms ease;
+  }
+  
+  .card-element-container:focus-within {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+  }
+  

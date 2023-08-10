@@ -1,0 +1,56 @@
+h2{
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.toggle-button {
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.toggle-button.active {
+  background-color: #1e4c90;
+  color: white;
+}
+
+.on {
+  transform: translateX(30px);
+  background-color: #1e4c90;
+}
+
+
+.subscriptions-container {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.subscriptions-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+  margin-top: 20px;
+}
+
+
+
+.subscriptions-table th, .subscriptions-table td {
+  border-bottom: 1px solid #ddd;
+  padding: 12px 16px;
+  margin-bottom: 50px;
+}
+
+.subscriptions-table tr {
+  margin-bottom: 50px;
+}
+
